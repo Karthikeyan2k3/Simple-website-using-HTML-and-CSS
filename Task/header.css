@@ -1,0 +1,50 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 100px ;
+    background-color: white;
+}
+header .logo{
+    display: flex;
+    align-items: center;
+}
+header .logo img{
+    height: 70px;
+}
+header h1{
+    font-family:"Brush Script MT", cursive;
+    white-space: nowrap;
+    margin: 0 ;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+.navitems a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.navitems a:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(235, 192, 85);
+    text-decoration-thickness: 3px;
+}
+.button{
+    display: flex;
+    gap: 10px;
+}
+.login-btn, .book-btn{
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 0;
+    font-weight: bold;
+}
+.login-btn:hover, .book-btn:hover{
+    background-color: rgb(235, 192, 85);
+    color: white;
+    border-radius: 20px;
+}

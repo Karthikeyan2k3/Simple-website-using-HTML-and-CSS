@@ -1,0 +1,31 @@
+.form{
+    white-space: nowrap;
+    position: absolute;
+    padding-top: 60px;
+    display: flex;
+}
+.bookform{
+    border: 3px solid whitesmoke;
+    border-radius: 20px;
+}
+.bookform input,.bookform button{
+    padding: 15px;
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+}
+.bookform button{
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 2px 4px rgb(235, 192, 85);
+}
+.booksct-btn{
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 0;
+    font-weight: bold;   
+}
+.booksct-btn:hover{
+    background-color: rgb(235, 192, 85);
+    color: white;
+    border-radius: 20px;
+}
